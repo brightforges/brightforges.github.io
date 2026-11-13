@@ -1,0 +1,7 @@
+# Local web server script
+server.ps1
+bright-forge.zip
+
+# OS generated
+.DS_Store
+Thumbs.db

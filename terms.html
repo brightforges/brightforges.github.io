@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Terms of Use | Bright Forge</title>
+  <meta name="title" content="Terms of Use | Bright Forge">
+  <meta name="description" content="Bright Forge Terms of Use. Terms governing digital engineering services, intellectual property ownership, milestone deliveries, and service level agreements.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts: Montserrat (headings) & Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#121A2B',
+              'navy-dark': '#0B111C',
+              'navy-light': '#1C2942',
+              'navy-surface': '#182338',
+              orange: '#FF6A00',
+              'orange-hover': '#E55F00',
+              'orange-light': '#FFF0E6',
+              gold: '#FFC83D',
+              'light-gray': '#F4F6FA'
+            }
+          },
+          fontFamily: {
+            heading: ['Montserrat', 'sans-serif'],
+            body: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white text-slate-800 antialiased font-body selection:bg-brand-orange selection:text-white">
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 bg-brand-navy/95 backdrop-blur-md border-b border-white/10 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        
+        <!-- Brand Logo -->
+        <a href="index.html" class="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange rounded-lg p-1" aria-label="Bright Forge Home">
+          <img src="assets/logo.png" alt="Bright Forge Logo" class="h-9 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+          <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-white flex items-center">
+            Bright<span class="text-brand-orange ml-1">Forge</span>
+          </span>
+        </a>
+
+        <!-- Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-6 text-sm font-medium" aria-label="Page Navigation">
+          <a href="index.html#home" class="text-slate-300 hover:text-white transition-colors">Home</a>
+          <a href="index.html#about" class="text-slate-300 hover:text-white transition-colors">About</a>
+          <a href="index.html#services" class="text-slate-300 hover:text-white transition-colors">Services</a>
+          <a href="index.html#portfolio" class="text-slate-300 hover:text-white transition-colors">Portfolio</a>
+          <a href="privacy.html" class="text-slate-300 hover:text-white transition-colors">Privacy Policy</a>
+          <a href="index.html#contact" class="text-slate-300 hover:text-white transition-colors">Contact</a>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="flex items-center gap-4">
+          <a href="index.html" class="inline-flex items-center justify-center px-4 py-2 rounded-xl text-xs sm:text-sm font-heading font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-all duration-200">
+            <i data-lucide="arrow-left" class="w-4 h-4 mr-1.5"></i>
+            <span>Back to Foundry</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="pt-24 pb-20">
+    
+    <!-- Hero Banner -->
+    <section class="bg-brand-navy text-white pt-16 pb-20 relative overflow-hidden">
+      <!-- Glow ambient background -->
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_80%_30%,rgba(255,106,0,0.18),transparent_60%)] pointer-events-none"></div>
+      
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6 uppercase tracking-wider">
+          <a href="index.html" class="hover:text-brand-orange transition-colors">Home</a>
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          <span class="text-brand-gold">Legal Governance</span>
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          <span class="text-white">Terms of Use</span>
+        </nav>
+
+        <h1 class="text-3xl sm:text-5xl font-heading font-black tracking-tight text-white mb-4">
+          Bright Forge <span class="text-brand-orange">Terms of Use</span>
+        </h1>
+        <p class="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed mb-8">
+          The legal framework governing our engineering contracts, code ownership transfer, sprint deliverables, and service level commitments.
+        </p>
+
+        <!-- Metadata badges -->
+        <div class="flex flex-wrap items-center gap-3 pt-6 border-t border-white/10 text-xs text-slate-300">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/10">
+            <i data-lucide="calendar" class="w-3.5 h-3.5 text-brand-gold"></i>
+            <span>Effective Date: January 1, 2026</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/10">
+            <i data-lucide="clock" class="w-3.5 h-3.5 text-brand-orange"></i>
+            <span>Last Updated: November 2026</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/10">
+            <i data-lucide="globe" class="w-3.5 h-3.5 text-brand-gold"></i>
+            <span>Model: Remote-First Global Operations</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">
+            <i data-lucide="award" class="w-3.5 h-3.5"></i>
+            <span>100% Client IP Assignment</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Document Body -->
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6">
+      <div class="bg-white rounded-3xl shadow-xl border border-slate-200/80 p-8 sm:p-12 lg:p-16">
+        
+        <!-- Summary Callout -->
+        <div class="p-6 rounded-2xl bg-brand-light-gray border-l-4 border-brand-orange mb-12">
+          <h3 class="font-heading font-bold text-brand-navy text-base mb-2 flex items-center gap-2">
+            <i data-lucide="file-check-2" class="w-5 h-5 text-brand-orange"></i>
+            <span>Core Principles in Plain Language</span>
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            When you hire Bright Forge, you own what we build for you. Once milestones are paid, full ownership of custom code, schemas, and designs transfers to your entity. We guarantee professional craftsmanship, transparent sprint burndowns, and a 90-day post-launch warranty covering defect remediation.
+          </p>
+        </div>
+
+        <article class="prose prose-slate max-w-none space-y-10 text-slate-700 leading-relaxed">
+          
+          <!-- Section 1 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">1</span>
+              <span>Acceptance & Contractual Structure</span>
+            </h2>
+            <p>
+              These Terms of Use ("Terms") constitute a legally binding agreement between you ("Client", "User", or "Customer") and <strong>Bright Forge Inc.</strong> ("Bright Forge", "we", "our"). These Terms apply to your visit to our website and govern all Statements of Work (SOW), Master Services Agreements (MSA), and consulting engagements executed with Bright Forge.
+            </p>
+            <p class="mt-3">
+              In the event of a conflict between these general Terms and an executed Statement of Work (SOW), the provisions of the signed SOW will supersede these Terms to the extent of the specific conflict.
+            </p>
+          </div>
+
+          <!-- Section 2 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
+              <span>Foundry Services & Statements of Work (SOW)</span>
+            </h2>
+            <p>
+              Bright Forge provides specialized digital services, including custom software engineering, cloud infrastructure architecture, artificial intelligence and machine learning system development, user experience design, and security compliance audits.
+            </p>
+            <p class="mt-3">
+              Each engagement is formalized through a project blueprint or Statement of Work that explicitly defines:
+            </p>
+            <ul class="list-disc pl-6 space-y-1.5 mt-2">
+              <li>Deliverable specifications, acceptance criteria, and technical stack.</li>
+              <li>Sprint schedule, milestone deadlines, and demo review checkpoints.</li>
+              <li>Commercial terms, payment triggers, and project team composition.</li>
+            </ul>
+          </div>
+
+          <!-- Section 3 -->
+          <div class="p-6 rounded-2xl bg-orange-50/50 border border-brand-orange/20">
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-3 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange text-white text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
+              <span>Intellectual Property Rights & Code Ownership</span>
+            </h2>
+            <p class="text-sm font-semibold text-brand-navy mb-2">Complete Work-Made-For-Hire Assignment:</p>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              Upon final payment of applicable milestone invoices, <strong>Bright Forge grants and assigns to Client all right, title, and interest in and to all custom software deliverables, source code, UI designs, databases, and documentation</strong> developed uniquely for Client under the applicable SOW. Client owns all copyright and patent rights free of ongoing royalty obligations.
+            </p>
+            <p class="text-xs text-slate-500 mt-3">
+              *Note: Standard open-source libraries (e.g. React, Tailwind CSS, Linux, Python packages) incorporated into deliverables remain subject to their respective permissive licenses (e.g., MIT, Apache 2.0).
+            </p>
+          </div>
+
+          <!-- Section 4 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
+              <span>Sprint Cadence & Client Acceptance Period</span>
+            </h2>
+            <p>
+              Our projects operate on structured bi-weekly development sprints. Upon delivery of a milestone build:
+            </p>
+            <ul class="list-disc pl-6 space-y-2 mt-3">
+              <li>
+                <strong>Review Period:</strong> Client has ten (10) business days from milestone delivery to review, test, and provide written notice of defects or milestone approval.
+              </li>
+              <li>
+                <strong>Defect Correction:</strong> If Client identifies reproducible defects that deviate from agreed specifications, Bright Forge will remediate such defects at no additional cost.
+              </li>
+              <li>
+                <strong>Deemed Acceptance:</strong> If no written notice of rejection is provided within ten (10) business days, the milestone is deemed accepted and invoiced accordingly.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Section 5 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
+              <span>Post-Launch Warranty & SLAs</span>
+            </h2>
+            <p>
+              Bright Forge stands firmly behind the durability of its code. Every custom software deliverable includes:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <h4 class="font-heading font-bold text-sm text-brand-navy mb-1 flex items-center gap-2">
+                  <i data-lucide="shield" class="w-4 h-4 text-brand-orange"></i>
+                  <span>90-Day Bug Warranty</span>
+                </h4>
+                <p class="text-xs text-slate-600">Immediate remediation of any critical functional bugs or architectural defects reported within 90 days of production launch at zero fee.</p>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <h4 class="font-heading font-bold text-sm text-brand-navy mb-1 flex items-center gap-2">
+                  <i data-lucide="clock" class="w-4 h-4 text-brand-gold"></i>
+                  <span>Emergency Response SLA</span>
+                </h4>
+                <p class="text-xs text-slate-600">For ongoing retainer clients, guaranteed 1-hour critical response times with 24/7 telemetry monitoring and automated incident escalation.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 6 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
+              <span>Confidentiality & Non-Disclosure (NDA)</span>
+            </h2>
+            <p>
+              Both parties agree to protect and keep strictly confidential all technical and commercial secrets exchanged during discussions and development. Bright Forge enforces strict Non-Disclosure Agreements across all employees, contractors, and systems architects. We never disclose client proprietary architectures or metrics without explicit written consent.
+            </p>
+          </div>
+
+          <!-- Section 7 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">7</span>
+              <span>Limitation of Liability</span>
+            </h2>
+            <p>
+              To the maximum extent permitted by applicable law, neither party shall be liable for indirect, incidental, special, punitive, or consequential damages (including loss of profits, data, or business interruption) arising out of or related to these Terms. Bright Forge’s aggregate liability under any Statement of Work shall not exceed the total fees paid by Client under that specific Statement of Work during the preceding twelve (12) months.
+            </p>
+          </div>
+
+          <!-- Section 8 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">8</span>
+              <span>Governing Law & Contractual Terms</span>
+            </h2>
+            <p>
+              These Terms and any individual Statement of Work (SOW) executed between Client and Bright Forge shall be interpreted in accordance with applicable general commercial principles and the mutually agreed contractual jurisdiction stipulated in each specific Client Statement of Work.
+            </p>
+          </div>
+
+          <!-- Section 9 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">9</span>
+              <span>Legal Department Inquiries</span>
+            </h2>
+            <p>
+              For legal notices, contract inquiries, or partner Master Service Agreement executions, contact our Legal Counsel:
+            </p>
+            <div class="mt-4 p-6 rounded-2xl bg-brand-navy text-white flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+              <div>
+                <h4 class="font-heading font-bold text-base text-white">Bright Forge Legal Department</h4>
+                <p class="text-xs text-slate-300 mt-1">Operating as a 100% Remote-First & Cloud-Native Digital Foundry</p>
+                <p class="text-xs text-brand-gold mt-1">Attn: Contract Inquiries & General Counsel</p>
+              </div>
+              <a href="mailto:forgesbright@gmail.com" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-brand-orange hover:bg-brand-orange-hover text-white text-xs sm:text-sm font-heading font-bold transition-all shadow-lg flex-shrink-0">
+                <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+                <span>forgesbright@gmail.com</span>
+              </a>
+            </div>
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-brand-navy-dark text-slate-400 pt-16 pb-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <div class="md:col-span-2">
+          <a href="index.html" class="flex items-center gap-3 mb-4" aria-label="Bright Forge Home">
+            <img src="assets/logo.png" alt="Bright Forge Logo" class="h-9 w-auto object-contain">
+            <span class="font-heading font-extrabold text-2xl text-white tracking-tight">
+              Bright<span class="text-brand-orange ml-1">Forge</span>
+            </span>
+          </a>
+          <p class="text-sm text-slate-400 max-w-sm">
+            Engineering resilient software, cloud systems, and machine learning platforms built to stand the test of scale.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm uppercase tracking-wider mb-4">Navigation</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="index.html#home" class="hover:text-brand-orange transition-colors">Home</a></li>
+            <li><a href="index.html#services" class="hover:text-brand-orange transition-colors">Services</a></li>
+            <li><a href="index.html#portfolio" class="hover:text-brand-orange transition-colors">Portfolio</a></li>
+            <li><a href="index.html#contact" class="hover:text-brand-orange transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm uppercase tracking-wider mb-4">Legal Governance</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="privacy.html" class="hover:text-brand-orange transition-colors">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-brand-orange font-semibold">Terms of Use</a></li>
+            <li><span class="text-slate-400 text-xs">Remote-First Global Operations</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+        <p>&copy; 2026 Bright Forge. All rights reserved.</p>
+        <p class="mt-2 sm:mt-0">Engineered with passion & steel precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,222 @@
+/* Bright Forge Custom Stylesheet */
+
+:root {
+  --color-navy: #121A2B;
+  --color-navy-dark: #0B111C;
+  --color-navy-light: #1A263D;
+  --color-orange: #FF6A00;
+  --color-orange-glow: rgba(255, 106, 0, 0.45);
+  --color-gold: #FFC83D;
+  --color-light-gray: #F4F6FA;
+  --color-white: #FFFFFF;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: var(--color-white);
+  color: #334155;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1624;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3b5a;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange);
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 3px;
+}
+
+/* Hero Canvas & Glow */
+.hero-glow {
+  background: radial-gradient(circle 500px at 50% 50%, rgba(255, 106, 0, 0.15), rgba(255, 200, 61, 0.08), transparent 70%);
+}
+
+.hero-radial-glow-top {
+  background: radial-gradient(circle at 50% -20%, rgba(255, 106, 0, 0.25), transparent 50%);
+}
+
+/* Ember Spark Animation */
+@keyframes sparkPulse {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 6px rgba(255, 200, 61, 0.9));
+  }
+  50% {
+    transform: scale(1.15) rotate(5deg);
+    filter: drop-shadow(0 0 14px rgba(255, 106, 0, 1));
+  }
+}
+
+.animate-spark {
+  animation: sparkPulse 2.8s ease-in-out infinite;
+}
+
+/* Card Hover Lift & Glow */
+.service-card {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 106, 0, 0.4);
+  box-shadow: 0 20px 35px -10px rgba(255, 106, 0, 0.22),
+              0 0 0 1px rgba(255, 106, 0, 0.35);
+}
+
+/* Why Choose Us Card */
+.feature-card {
+  transition: all 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -6px rgba(18, 26, 43, 0.08);
+}
+
+/* Portfolio Card */
+.portfolio-card {
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.portfolio-card .portfolio-img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.portfolio-card:hover .portfolio-img {
+  transform: scale(1.08);
+}
+
+.portfolio-overlay {
+  opacity: 0;
+  transition: all 0.35s ease;
+  backdrop-filter: blur(4px);
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+/* Timeline Process Styles */
+.process-line {
+  background: linear-gradient(90deg, #FF6A00 0%, #FFC83D 50%, #FF6A00 100%);
+  background-size: 200% 100%;
+  animation: shimmerLine 4s linear infinite;
+}
+
+@keyframes shimmerLine {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+.process-step-node {
+  transition: all 0.3s ease;
+}
+
+.process-step:hover .process-step-node {
+  transform: scale(1.12);
+  box-shadow: 0 0 22px rgba(255, 106, 0, 0.6);
+}
+
+/* Testimonial Carousel Transitions */
+.carousel-slide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: scale(0.96);
+  pointer-events: none;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+/* CTA Gradient */
+.cta-gradient-bg {
+  background: linear-gradient(135deg, #FF6A00 0%, #FF7F1A 45%, #FFC83D 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-gradient-bg::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Scroll Fade Animation Classes */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Floating Actions: WhatsApp & Back-To-Top */
+.floating-action-btn {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.floating-action-btn:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Toast Notifications */
+#toast-notification {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+}
+
+#toast-notification.toast-hidden {
+  transform: translateY(120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+#toast-notification.toast-visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Quote Modal */
+.modal-backdrop {
+  backdrop-filter: blur(6px);
+  transition: opacity 0.3s ease;
+}
+
+.modal-content {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+}
+

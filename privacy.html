@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Privacy Policy | Bright Forge</title>
+  <meta name="title" content="Privacy Policy | Bright Forge">
+  <meta name="description" content="Bright Forge Privacy Policy. Learn how we safeguard your data, protect client intellectual property, and enforce zero-trust security standards.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts: Montserrat (headings) & Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#121A2B',
+              'navy-dark': '#0B111C',
+              'navy-light': '#1C2942',
+              'navy-surface': '#182338',
+              orange: '#FF6A00',
+              'orange-hover': '#E55F00',
+              'orange-light': '#FFF0E6',
+              gold: '#FFC83D',
+              'light-gray': '#F4F6FA'
+            }
+          },
+          fontFamily: {
+            heading: ['Montserrat', 'sans-serif'],
+            body: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white text-slate-800 antialiased font-body selection:bg-brand-orange selection:text-white">
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 bg-brand-navy/95 backdrop-blur-md border-b border-white/10 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        
+        <!-- Brand Logo -->
+        <a href="index.html" class="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange rounded-lg p-1" aria-label="Bright Forge Home">
+          <img src="assets/logo.png" alt="Bright Forge Logo" class="h-9 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+          <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-white flex items-center">
+            Bright<span class="text-brand-orange ml-1">Forge</span>
+          </span>
+        </a>
+
+        <!-- Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-6 text-sm font-medium" aria-label="Page Navigation">
+          <a href="index.html#home" class="text-slate-300 hover:text-white transition-colors">Home</a>
+          <a href="index.html#about" class="text-slate-300 hover:text-white transition-colors">About</a>
+          <a href="index.html#services" class="text-slate-300 hover:text-white transition-colors">Services</a>
+          <a href="index.html#portfolio" class="text-slate-300 hover:text-white transition-colors">Portfolio</a>
+          <a href="terms.html" class="text-slate-300 hover:text-white transition-colors">Terms of Use</a>
+          <a href="index.html#contact" class="text-slate-300 hover:text-white transition-colors">Contact</a>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="flex items-center gap-4">
+          <a href="index.html" class="inline-flex items-center justify-center px-4 py-2 rounded-xl text-xs sm:text-sm font-heading font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-all duration-200">
+            <i data-lucide="arrow-left" class="w-4 h-4 mr-1.5"></i>
+            <span>Back to Foundry</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="pt-24 pb-20">
+    
+    <!-- Hero Banner -->
+    <section class="bg-brand-navy text-white pt-16 pb-20 relative overflow-hidden">
+      <!-- Glow ambient background -->
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(255,106,0,0.18),transparent_60%)] pointer-events-none"></div>
+      
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6 uppercase tracking-wider">
+          <a href="index.html" class="hover:text-brand-orange transition-colors">Home</a>
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          <span class="text-brand-gold">Legal Governance</span>
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          <span class="text-white">Privacy Policy</span>
+        </nav>
+
+        <h1 class="text-3xl sm:text-5xl font-heading font-black tracking-tight text-white mb-4">
+          Bright Forge <span class="text-brand-orange">Privacy Policy</span>
+        </h1>
+        <p class="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed mb-8">
+          Our commitment to protecting your digital footprint, securing enterprise credentials, and upholding strict non-disclosure across all forged architectures.
+        </p>
+
+        <!-- Metadata badges -->
+        <div class="flex flex-wrap items-center gap-3 pt-6 border-t border-white/10 text-xs text-slate-300">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/10">
+            <i data-lucide="calendar" class="w-3.5 h-3.5 text-brand-gold"></i>
+            <span>Effective Date: January 1, 2026</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/10">
+            <i data-lucide="clock" class="w-3.5 h-3.5 text-brand-orange"></i>
+            <span>Last Updated: November 2026</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+            <span>SOC 2 Type II Audited</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20 font-semibold">
+            <i data-lucide="lock" class="w-3.5 h-3.5"></i>
+            <span>GDPR & CCPA Compliant</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Document Body -->
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6">
+      <div class="bg-white rounded-3xl shadow-xl border border-slate-200/80 p-8 sm:p-12 lg:p-16">
+        
+        <!-- Summary Callout -->
+        <div class="p-6 rounded-2xl bg-brand-light-gray border-l-4 border-brand-orange mb-12">
+          <h3 class="font-heading font-bold text-brand-navy text-base mb-2 flex items-center gap-2">
+            <i data-lucide="info" class="w-5 h-5 text-brand-orange"></i>
+            <span>Privacy in Plain English</span>
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            At Bright Forge, we do not sell your data. We do not monetize your inquiries. We treat all client code, project roadmaps, and business credentials as confidential industrial assets. We employ zero-trust access controls, multi-factor authentication, and end-to-end cryptographic encryption across all systems.
+          </p>
+        </div>
+
+        <article class="prose prose-slate max-w-none space-y-10 text-slate-700 leading-relaxed">
+          
+          <!-- Section 1 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">1</span>
+              <span>Introduction & Scope of Policy</span>
+            </h2>
+            <p>
+              This Privacy Policy applies to all services, consulting engagements, software development projects, and web portals operated by <strong>Bright Forge Inc.</strong> ("Bright Forge", "we", "us", or "our"). This policy governs the manner in which Bright Forge collects, uses, maintains, and discloses information collected from visitors of our website (<a href="https://brightforges.github.io" class="text-brand-orange hover:underline">brightforges.github.io</a>) and enterprise clients utilizing our engineering foundry.
+            </p>
+            <p class="mt-3">
+              By engaging with our website or entering into a Statement of Work (SOW) with Bright Forge, you acknowledge and agree to the practices outlined in this policy.
+            </p>
+          </div>
+
+          <!-- Section 2 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
+              <span>Information We Collect</span>
+            </h2>
+            <p>We collect information in three primary categories:</p>
+            <ul class="list-disc pl-6 space-y-2 mt-3">
+              <li>
+                <strong>Direct Identification Details:</strong> When you submit a project inquiry, request a blueprint quote, or contact our engineering leads, we collect your full name, business email address, phone number, company name, and project scope requirements.
+              </li>
+              <li>
+                <strong>Client Project & Technical Data:</strong> When under contract, we may handle architectural diagrams, API endpoints, repository access credentials, and environment parameters strictly required to build and deploy your software.
+              </li>
+              <li>
+                <strong>Automated System Telemetry:</strong> Log data including IP addresses, browser types, operating systems, referring URLs, and diagnostic session metrics to safeguard against distributed denial-of-service (DDoS) threats.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Section 3 -->
+          <div class="p-6 rounded-2xl bg-orange-50/50 border border-brand-orange/20">
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-3 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange text-white text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
+              <span>Client Code & Proprietary IP Isolation Guarantee</span>
+            </h2>
+            <p class="text-sm font-semibold text-brand-navy mb-2">Our Strict "Zero Unauthorized Training" Policy:</p>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              Bright Forge guarantees that <strong>no client source code, proprietary algorithms, database schemas, or trade secrets are ever ingested into public artificial intelligence models, third-party LLM training pipelines, or shared repositories</strong>. Every client workspace is isolated within dedicated virtual private clouds (VPCs) with strict role-based access control (RBAC).
+            </p>
+          </div>
+
+          <!-- Section 4 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
+              <span>How We Utilize Your Information</span>
+            </h2>
+            <p>We process your data strictly for legitimate operational purposes:</p>
+            <ul class="list-disc pl-6 space-y-2 mt-3">
+              <li>Engineering, testing, deploying, and maintaining custom software deliverables.</li>
+              <li>Generating architectural estimates, formal project bids, and timeline milestones.</li>
+              <li>Delivering critical security patches, emergency on-call notices, and status alerts.</li>
+              <li>Fulfilling legal, tax, accounting, and SOC 2 / HIPAA compliance audits.</li>
+            </ul>
+          </div>
+
+          <!-- Section 5 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
+              <span>Enterprise Security Infrastructure</span>
+            </h2>
+            <p>
+              We implement comprehensive defense-in-depth security measures to protect against unauthorized access, alteration, or disclosure:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <h4 class="font-heading font-bold text-sm text-brand-navy mb-1 flex items-center gap-2">
+                  <i data-lucide="key" class="w-4 h-4 text-brand-orange"></i>
+                  <span>Cryptographic Encryption</span>
+                </h4>
+                <p class="text-xs text-slate-600">All data in transit is encrypted using TLS 1.3. Data at rest is encrypted via AES-256 with rotating KMS keys.</p>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <h4 class="font-heading font-bold text-sm text-brand-navy mb-1 flex items-center gap-2">
+                  <i data-lucide="shield-alert" class="w-4 h-4 text-brand-gold"></i>
+                  <span>Zero-Trust Access Control</span>
+                </h4>
+                <p class="text-xs text-slate-600">Hardware MFA tokens, ephemeral SSH credentials, and least-privilege policies enforced across all engineer accounts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 6 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
+              <span>Third-Party Cloud Sub-Processors</span>
+            </h2>
+            <p>
+              Bright Forge works with tier-one cloud providers that adhere to ISO 27001, SOC 2, and FedRAMP standards. Our primary sub-processors include:
+            </p>
+            <div class="mt-4 overflow-x-auto">
+              <table class="w-full text-left border-collapse border border-slate-200 text-xs sm:text-sm">
+                <thead>
+                  <tr class="bg-brand-light-gray font-heading font-bold text-brand-navy">
+                    <th class="p-3 border border-slate-200">Sub-Processor</th>
+                    <th class="p-3 border border-slate-200">Purpose</th>
+                    <th class="p-3 border border-slate-200">Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="p-3 border border-slate-200 font-semibold">Amazon Web Services (AWS)</td>
+                    <td class="p-3 border border-slate-200">Cloud compute, isolated VPCs, storage</td>
+                    <td class="p-3 border border-slate-200">United States / Global</td>
+                  </tr>
+                  <tr>
+                    <td class="p-3 border border-slate-200 font-semibold">Google Cloud Platform (GCP)</td>
+                    <td class="p-3 border border-slate-200">Kubernetes clusters, BigQuery analytics</td>
+                    <td class="p-3 border border-slate-200">United States / Global</td>
+                  </tr>
+                  <tr>
+                    <td class="p-3 border border-slate-200 font-semibold">Cloudflare Inc.</td>
+                    <td class="p-3 border border-slate-200">DDoS mitigation, CDN, edge routing</td>
+                    <td class="p-3 border border-slate-200">Global Edge Network</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Section 7 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">7</span>
+              <span>Your Rights Under GDPR & CCPA/CPRA</span>
+            </h2>
+            <p>
+              Depending on your jurisdiction, you retain full statutory rights regarding your personal information:
+            </p>
+            <ul class="list-disc pl-6 space-y-2 mt-3">
+              <li><strong>Right to Access:</strong> You may request a complete export of your personal information held by us.</li>
+              <li><strong>Right to Rectification:</strong> You may request correction of outdated or inaccurate personal details.</li>
+              <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You may request complete deletion of your records, subject to regulatory retention laws.</li>
+              <li><strong>Right to Non-Discrimination:</strong> We do not withhold service or penalize any user exercising privacy rights.</li>
+            </ul>
+          </div>
+
+          <!-- Section 8 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">8</span>
+              <span>Data Protection Officer & Contact Inquiries</span>
+            </h2>
+            <p>
+              If you have inquiries, audit requests, or wish to exercise your legal data rights, contact our Data Governance Officer directly:
+            </p>
+            <div class="mt-4 p-6 rounded-2xl bg-brand-navy text-white flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+              <div>
+                <h4 class="font-heading font-bold text-base text-white">Bright Forge Data Protection Office</h4>
+                <p class="text-xs text-slate-300 mt-1">Operating as a 100% Remote-First & Cloud-Native Digital Foundry</p>
+                <p class="text-xs text-brand-gold mt-1">Attn: Data Privacy & Security Inquiries</p>
+              </div>
+              <a href="mailto:forgesbright@gmail.com" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-brand-orange hover:bg-brand-orange-hover text-white text-xs sm:text-sm font-heading font-bold transition-all shadow-lg flex-shrink-0">
+                <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+                <span>forgesbright@gmail.com</span>
+              </a>
+            </div>
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-brand-navy-dark text-slate-400 pt-16 pb-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <div class="md:col-span-2">
+          <a href="index.html" class="flex items-center gap-3 mb-4" aria-label="Bright Forge Home">
+            <img src="assets/logo.png" alt="Bright Forge Logo" class="h-9 w-auto object-contain">
+            <span class="font-heading font-extrabold text-2xl text-white tracking-tight">
+              Bright<span class="text-brand-orange ml-1">Forge</span>
+            </span>
+          </a>
+          <p class="text-sm text-slate-400 max-w-sm">
+            Engineering resilient software, cloud systems, and machine learning platforms built to stand the test of scale.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm uppercase tracking-wider mb-4">Navigation</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="index.html#home" class="hover:text-brand-orange transition-colors">Home</a></li>
+            <li><a href="index.html#services" class="hover:text-brand-orange transition-colors">Services</a></li>
+            <li><a href="index.html#portfolio" class="hover:text-brand-orange transition-colors">Portfolio</a></li>
+            <li><a href="index.html#contact" class="hover:text-brand-orange transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading font-bold text-white text-sm uppercase tracking-wider mb-4">Legal Governance</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="privacy.html" class="text-brand-orange font-semibold">Privacy Policy</a></li>
+            <li><a href="terms.html" class="hover:text-brand-orange transition-colors">Terms of Use</a></li>
+            <li><span class="text-slate-400 text-xs">Remote-First Global Operations</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+        <p>&copy; 2026 Bright Forge. All rights reserved.</p>
+        <p class="mt-2 sm:mt-0">Engineered with passion & steel precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>
+
