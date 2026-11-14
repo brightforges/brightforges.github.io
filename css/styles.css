@@ -137,6 +137,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   box-shadow: 0 0 22px rgba(255, 106, 0, 0.6);
 }
 
+/* Glassmorphism Process Card Shimmer */
+.process-card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-8px);
+}
+
 /* Testimonial Carousel Transitions */
 .carousel-slide {
   opacity: 0;

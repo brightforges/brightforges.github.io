@@ -43,7 +43,8 @@ A high-performance, responsive single-page company website built for **Bright Fo
 - **Quote Modal Dialog:** Pop-up blueprint request form accessible via the navbar and CTA buttons.
 - **Form Validation & Toast Notification:** Client-side validation with real-time feedback and notification toast.
 - **Back to Top Button:** Smoothly scrolls back to the hero section.
-- **Direct Contact Channel:** Official single point of contact via `forgesbright@gmail.com`.
+- **Direct Contact Channel:** Official single point of contact via `support@brightforges.in`.
+- **Legal & Store Compliance:** Comprehensive Privacy Policy and Terms of Use tailored for Google Play Store, Apple App Store, and Paid Applications with explicit non-refundable digital goods disclosures.
 - **SEO & Social Metadata:** Fully configured Open Graph, Twitter card tags, meta description, and SVG favicon.
 
 ---

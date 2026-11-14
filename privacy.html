@@ -72,7 +72,7 @@
           <a href="index.html#home" class="text-slate-300 hover:text-white transition-colors">Home</a>
           <a href="index.html#about" class="text-slate-300 hover:text-white transition-colors">About</a>
           <a href="index.html#services" class="text-slate-300 hover:text-white transition-colors">Services</a>
-          <a href="index.html#portfolio" class="text-slate-300 hover:text-white transition-colors">Portfolio</a>
+          <!-- <a href="index.html#portfolio" class="text-slate-300 hover:text-white transition-colors">Portfolio</a> -->
           <a href="terms.html" class="text-slate-300 hover:text-white transition-colors">Terms of Use</a>
           <a href="index.html#contact" class="text-slate-300 hover:text-white transition-colors">Contact</a>
         </nav>
@@ -124,6 +124,10 @@
             <i data-lucide="clock" class="w-3.5 h-3.5 text-brand-orange"></i>
             <span>Last Updated: November 2026</span>
           </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 font-semibold">
+            <i data-lucide="smartphone" class="w-3.5 h-3.5"></i>
+            <span>Paid Apps & Digital Goods Policy</span>
+          </span>
           <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">
             <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
             <span>SOC 2 Type II Audited</span>
@@ -144,10 +148,10 @@
         <div class="p-6 rounded-2xl bg-brand-light-gray border-l-4 border-brand-orange mb-12">
           <h3 class="font-heading font-bold text-brand-navy text-base mb-2 flex items-center gap-2">
             <i data-lucide="info" class="w-5 h-5 text-brand-orange"></i>
-            <span>Privacy in Plain English</span>
+            <span>Privacy & Paid Apps Summary in Plain English</span>
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed">
-            At Bright Forge, we do not sell your data. We do not monetize your inquiries. We treat all client code, project roadmaps, and business credentials as confidential industrial assets. We employ zero-trust access controls, multi-factor authentication, and end-to-end cryptographic encryption across all systems.
+            At Bright Forge, we do not sell your data. We do not monetize your inquiries, nor do we run invasive tracking inside our software. All transactions for our paid applications and digital software are processed through certified third-party app stores (Google Play, Apple App Store). Digital software purchases deliver instant access upon purchase and are <strong>strictly non-refundable</strong> once downloaded or activated. We protect all client code, user data, and system diagnostics with zero-trust security.
           </p>
         </div>
 
@@ -160,10 +164,18 @@
               <span>Introduction & Scope of Policy</span>
             </h2>
             <p>
-              This Privacy Policy applies to all services, consulting engagements, software development projects, and web portals operated by <strong>Bright Forge Inc.</strong> ("Bright Forge", "we", "us", or "our"). This policy governs the manner in which Bright Forge collects, uses, maintains, and discloses information collected from visitors of our website (<a href="https://brightforges.github.io" class="text-brand-orange hover:underline">brightforges.github.io</a>) and enterprise clients utilizing our engineering foundry.
+              This Privacy Policy applies to all services, consulting engagements, software development projects, web portals, and <strong>paid digital applications ("Paid Apps", "Applications", "Digital Products")</strong> operated and published by <strong>Bright Forge Inc.</strong> ("Bright Forge", "we", "us", or "our").
             </p>
             <p class="mt-3">
-              By engaging with our website or entering into a Statement of Work (SOW) with Bright Forge, you acknowledge and agree to the practices outlined in this policy.
+              This policy governs the manner in which Bright Forge collects, uses, maintains, and protects information gathered from:
+            </p>
+            <ul class="list-disc pl-6 space-y-1.5 mt-2">
+              <li>Visitors and users of our official website (<a href="https://brightforges.github.io" class="text-brand-orange hover:underline font-medium">brightforges.github.io</a>).</li>
+              <li>Users who download, purchase, license, or install our Paid Applications and software tools distributed via the Google Play Store, Apple App Store, desktop channels, or GitHub.</li>
+              <li>Enterprise clients and partners utilizing our engineering and software development foundry.</li>
+            </ul>
+            <p class="mt-3">
+              By visiting our site, purchasing or downloading any of our Paid Apps, or entering into an agreement with Bright Forge, you acknowledge and agree to the practices described in this policy.
             </p>
           </div>
 
@@ -173,24 +185,128 @@
               <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">2</span>
               <span>Information We Collect</span>
             </h2>
-            <p>We collect information in three primary categories:</p>
+            <p>We collect only the minimal information necessary to deliver, secure, and maintain our applications and engineering deliverables:</p>
             <ul class="list-disc pl-6 space-y-2 mt-3">
               <li>
-                <strong>Direct Identification Details:</strong> When you submit a project inquiry, request a blueprint quote, or contact our engineering leads, we collect your full name, business email address, phone number, company name, and project scope requirements.
+                <strong>Direct Inquiries & Support Communications:</strong> When you contact our support desk at <a href="mailto:support@brightforges.in" class="text-brand-orange hover:underline font-medium">support@brightforges.in</a>, submit a project blueprint inquiry, or report an application issue, we collect your name, email address, and message contents to assist you.
               </li>
               <li>
-                <strong>Client Project & Technical Data:</strong> When under contract, we may handle architectural diagrams, API endpoints, repository access credentials, and environment parameters strictly required to build and deploy your software.
+                <strong>Paid Application Purchase & Entitlement Metadata:</strong> When you purchase one of our paid applications through certified third-party app stores (such as Google Play Store or Apple App Store), we receive an anonymized transaction confirmation token, purchase timestamp, product ID, and license entitlement status to unlock application features. <em>We never receive or store your payment card numbers or bank credentials.</em>
               </li>
               <li>
-                <strong>Automated System Telemetry:</strong> Log data including IP addresses, browser types, operating systems, referring URLs, and diagnostic session metrics to safeguard against distributed denial-of-service (DDoS) threats.
+                <strong>Application Performance & Crash Diagnostics:</strong> Anonymized technical telemetry including operating system version, device hardware model, application build version, and fatal error stack traces strictly required to diagnose crashes and deploy stability patches.
+              </li>
+              <li>
+                <strong>Client Project & Technical Data:</strong> When under commercial contract, we may handle architectural diagrams, code repositories, and configuration parameters strictly required to build and deploy custom client deliverables.
               </li>
             </ul>
           </div>
 
-          <!-- Section 3 -->
+          <!-- Section 3: Paid Applications & Non-Refundable Policy -->
+          <div id="paid-apps" class="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-brand-light-gray to-orange-50/50 border-2 border-brand-orange/30 shadow-sm">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="w-9 h-9 rounded-xl bg-brand-orange text-white text-sm font-bold flex items-center justify-center flex-shrink-0 shadow-md shadow-brand-orange/30">3</span>
+              <div>
+                <h2 class="text-2xl font-heading font-bold text-brand-navy">
+                  Paid Applications, Payment Processing & Non-Refundable Policy
+                </h2>
+                <p class="text-xs text-brand-orange font-semibold tracking-wider uppercase mt-0.5">Strict Digital Goods Commercial Disclosures</p>
+              </div>
+            </div>
+            
+            <p class="text-sm text-slate-700 leading-relaxed mb-5">
+              Bright Forge publishes premium, commercial software applications designed for high performance, reliability, and precision. Please review our mandatory terms regarding payments and refunds:
+            </p>
+
+            <div class="space-y-4">
+              <!-- Point A: Payment Processing -->
+              <div class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/90 shadow-xs">
+                <h3 class="font-heading font-bold text-sm text-brand-navy mb-2 flex items-center gap-2">
+                  <i data-lucide="credit-card" class="w-4 h-4 text-brand-orange"></i>
+                  <span>Zero Payment Card Data Retention</span>
+                </h3>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  All billing and financial transactions for our Paid Apps, in-app purchases (IAP), and digital licenses are executed directly by certified third-party digital marketplaces and payment processors (e.g., <strong>Google Play In-App Billing</strong>, <strong>Apple App Store / StoreKit</strong>, or <strong>Stripe</strong>).
+                </p>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mt-2">
+                  <strong>Bright Forge does not collect, view, process, or store your credit card numbers, debit card details, bank account numbers, or billing security codes (CVV/CVC).</strong> All payment details are processed under the respective platform operator’s PCI-DSS compliant infrastructure and privacy terms.
+                </p>
+              </div>
+
+              <!-- Point B: Strict Non-Refundable Policy -->
+              <div class="p-4 sm:p-5 rounded-2xl bg-amber-500/10 border-2 border-amber-500/30">
+                <h3 class="font-heading font-bold text-sm sm:text-base text-amber-950 mb-2 flex items-center gap-2">
+                  <i data-lucide="alert-octagon" class="w-5 h-5 text-brand-orange flex-shrink-0"></i>
+                  <span>Strict Non-Refundable Policy — All Sales Are Final</span>
+                </h3>
+                <p class="text-xs sm:text-sm text-slate-800 leading-relaxed font-semibold">
+                  All purchases of Bright Forge Paid Applications, in-app digital unlocks, feature enhancements, and digital license keys are strictly non-refundable and all sales are final once completed.
+                </p>
+                <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mt-2.5">
+                  Because digital software applications, binaries, and digital licenses provide instant delivery and immediate access upon successful payment, the statutory right of withdrawal or cancellation is fully waived upon initiation of the download or license activation, to the maximum extent permitted by applicable international consumer law.
+                </p>
+                <div class="mt-3 text-xs sm:text-sm text-slate-700">
+                  <p class="font-semibold text-slate-800 mb-1">Non-Refundable Circumstances Include, but are not limited to:</p>
+                  <ul class="list-disc pl-5 space-y-1">
+                    <li>Change of mind, buyer remorse, or accidental purchases made by the user.</li>
+                    <li>Failure to verify hardware specifications, OS version compatibility, or memory requirements prior to purchase.</li>
+                    <li>Inability to run the application due to rooted, jailbroken, or modified device operating systems.</li>
+                    <li>Discontinuation of personal use or infrequent utilization of the software.</li>
+                  </ul>
+                </div>
+                <div class="mt-4 p-3 rounded-xl bg-white/80 border border-amber-400/30 text-xs text-slate-700">
+                  <span class="font-semibold text-brand-navy">App Store Platform Exception:</span> If your purchase was processed through the Google Play Store or Apple App Store, any refund claims are subject exclusively to the platform’s dispute mechanisms (such as Google Play’s automated refund window or Apple’s Report a Problem portal). Bright Forge does not have access to debit your store account or override store billing decisions.
+                </div>
+              </div>
+
+              <!-- Point C: No Ad-Tracking -->
+              <div class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/90 shadow-xs">
+                <h3 class="font-heading font-bold text-sm text-brand-navy mb-2 flex items-center gap-2">
+                  <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
+                  <span>No In-App Ads & Zero Behavioral Profiling</span>
+                </h3>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  Our paid applications do not contain third-party advertising SDKs, ad trackers, or third-party behavioral profiling scripts. You pay for the software once; your device usage data is never sold, leased, or broadcast to data brokers.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Section 4 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
+              <span>Application Permissions & Local Data Storage</span>
+            </h2>
+            <p>
+              To deliver their core functionality, our Paid Applications may request access to select device capabilities:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <h4 class="font-heading font-bold text-sm text-brand-navy mb-1 flex items-center gap-2">
+                  <i data-lucide="wifi" class="w-4 h-4 text-brand-orange"></i>
+                  <span>Network Access</span>
+                </h4>
+                <p class="text-xs text-slate-600">Used strictly to ping app store licensing APIs, verify active digital entitlements, and check for software stability updates.</p>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <h4 class="font-heading font-bold text-sm text-brand-navy mb-1 flex items-center gap-2">
+                  <i data-lucide="hard-drive" class="w-4 h-4 text-brand-gold"></i>
+                  <span>Local Device Storage</span>
+                </h4>
+                <p class="text-xs text-slate-600">User configuration files and project outputs are stored locally on your device hardware. Bright Forge never silently uploads or scans your local personal files.</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-500 mt-3">
+              You may manage or revoke permissions at any time through your device operating system settings (Android, iOS, macOS, Windows).
+            </p>
+          </div>
+
+          <!-- Section 5 -->
           <div class="p-6 rounded-2xl bg-orange-50/50 border border-brand-orange/20">
             <h2 class="text-2xl font-heading font-bold text-brand-navy mb-3 flex items-center gap-3">
-              <span class="w-8 h-8 rounded-lg bg-brand-orange text-white text-sm font-bold flex items-center justify-center flex-shrink-0">3</span>
+              <span class="w-8 h-8 rounded-lg bg-brand-orange text-white text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
               <span>Client Code & Proprietary IP Isolation Guarantee</span>
             </h2>
             <p class="text-sm font-semibold text-brand-navy mb-2">Our Strict "Zero Unauthorized Training" Policy:</p>
@@ -199,25 +315,26 @@
             </p>
           </div>
 
-          <!-- Section 4 -->
+          <!-- Section 6 -->
           <div>
             <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
-              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">4</span>
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
               <span>How We Utilize Your Information</span>
             </h2>
-            <p>We process your data strictly for legitimate operational purposes:</p>
+            <p>We process collected data strictly for legitimate operational purposes:</p>
             <ul class="list-disc pl-6 space-y-2 mt-3">
+              <li>Delivering, maintaining, validating licenses, and optimizing our Paid Applications.</li>
               <li>Engineering, testing, deploying, and maintaining custom software deliverables.</li>
-              <li>Generating architectural estimates, formal project bids, and timeline milestones.</li>
-              <li>Delivering critical security patches, emergency on-call notices, and status alerts.</li>
-              <li>Fulfilling legal, tax, accounting, and SOC 2 / HIPAA compliance audits.</li>
+              <li>Generating architectural estimates, formal project bids, and milestone updates.</li>
+              <li>Delivering critical security patches, emergency on-call notices, and stability alerts.</li>
+              <li>Fulfilling legal, tax, accounting, and compliance audit obligations.</li>
             </ul>
           </div>
 
-          <!-- Section 5 -->
+          <!-- Section 7 -->
           <div>
             <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
-              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">5</span>
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">7</span>
               <span>Enterprise Security Infrastructure</span>
             </h2>
             <p>
@@ -241,80 +358,99 @@
             </div>
           </div>
 
-          <!-- Section 6 -->
+          <!-- Section 8 -->
           <div>
             <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
-              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">6</span>
-              <span>Third-Party Cloud Sub-Processors</span>
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">8</span>
+              <span>Third-Party Cloud Providers & Platform Sub-Processors</span>
             </h2>
             <p>
-              Bright Forge works with tier-one cloud providers that adhere to ISO 27001, SOC 2, and FedRAMP standards. Our primary sub-processors include:
+              Bright Forge partners with tier-one cloud providers and authorized distribution networks adhering to SOC 2, ISO 27001, and PCI-DSS standards:
             </p>
             <div class="mt-4 overflow-x-auto">
               <table class="w-full text-left border-collapse border border-slate-200 text-xs sm:text-sm">
                 <thead>
                   <tr class="bg-brand-light-gray font-heading font-bold text-brand-navy">
-                    <th class="p-3 border border-slate-200">Sub-Processor</th>
+                    <th class="p-3 border border-slate-200">Provider</th>
                     <th class="p-3 border border-slate-200">Purpose</th>
-                    <th class="p-3 border border-slate-200">Location</th>
+                    <th class="p-3 border border-slate-200">Data Handled</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="p-3 border border-slate-200 font-semibold">Amazon Web Services (AWS)</td>
-                    <td class="p-3 border border-slate-200">Cloud compute, isolated VPCs, storage</td>
-                    <td class="p-3 border border-slate-200">United States / Global</td>
+                    <td class="p-3 border border-slate-200 font-semibold">Google Play (Google LLC)</td>
+                    <td class="p-3 border border-slate-200">App distribution & in-app purchase billing</td>
+                    <td class="p-3 border border-slate-200">Anonymized order tokens, receipt validation</td>
                   </tr>
                   <tr>
-                    <td class="p-3 border border-slate-200 font-semibold">Google Cloud Platform (GCP)</td>
-                    <td class="p-3 border border-slate-200">Kubernetes clusters, BigQuery analytics</td>
-                    <td class="p-3 border border-slate-200">United States / Global</td>
+                    <td class="p-3 border border-slate-200 font-semibold">Apple App Store (Apple Inc.)</td>
+                    <td class="p-3 border border-slate-200">iOS/macOS distribution & StoreKit billing</td>
+                    <td class="p-3 border border-slate-200">Anonymized transaction IDs, receipt verification</td>
+                  </tr>
+                  <tr>
+                    <td class="p-3 border border-slate-200 font-semibold">Amazon Web Services (AWS)</td>
+                    <td class="p-3 border border-slate-200">Cloud compute, isolated VPCs, storage</td>
+                    <td class="p-3 border border-slate-200">Encrypted server telemetry & staging data</td>
                   </tr>
                   <tr>
                     <td class="p-3 border border-slate-200 font-semibold">Cloudflare Inc.</td>
                     <td class="p-3 border border-slate-200">DDoS mitigation, CDN, edge routing</td>
-                    <td class="p-3 border border-slate-200">Global Edge Network</td>
+                    <td class="p-3 border border-slate-200">Edge network logs & IP headers</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
 
-          <!-- Section 7 -->
+          <!-- Section 9: Children's Privacy -->
           <div>
             <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
-              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">7</span>
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">9</span>
+              <span>Children’s Privacy (COPPA & GDPR-K Compliance)</span>
+            </h2>
+            <p>
+              Bright Forge Paid Applications and web services are designed for general professional, developer, and business audiences. <strong>We do not knowingly collect, solicit, or maintain personal identifiable information from children under the age of 13</strong> (or under 16 within the European Economic Area), nor do our paid applications target children.
+            </p>
+            <p class="mt-2.5">
+              If a parent or guardian discovers that their minor child has downloaded an application or transmitted personal information without consent, please notify us immediately at <a href="mailto:support@brightforges.in" class="text-brand-orange hover:underline font-medium">support@brightforges.in</a> so that we may promptly remove any corresponding records.
+            </p>
+          </div>
+
+          <!-- Section 10 -->
+          <div>
+            <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">10</span>
               <span>Your Rights Under GDPR & CCPA/CPRA</span>
             </h2>
             <p>
               Depending on your jurisdiction, you retain full statutory rights regarding your personal information:
             </p>
             <ul class="list-disc pl-6 space-y-2 mt-3">
-              <li><strong>Right to Access:</strong> You may request a complete export of your personal information held by us.</li>
+              <li><strong>Right to Access:</strong> You may request a complete export of personal information held by us.</li>
               <li><strong>Right to Rectification:</strong> You may request correction of outdated or inaccurate personal details.</li>
               <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You may request complete deletion of your records, subject to regulatory retention laws.</li>
               <li><strong>Right to Non-Discrimination:</strong> We do not withhold service or penalize any user exercising privacy rights.</li>
             </ul>
           </div>
 
-          <!-- Section 8 -->
+          <!-- Section 11 -->
           <div>
             <h2 class="text-2xl font-heading font-bold text-brand-navy mb-4 flex items-center gap-3">
-              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">8</span>
+              <span class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange text-sm font-bold flex items-center justify-center flex-shrink-0">11</span>
               <span>Data Protection Officer & Contact Inquiries</span>
             </h2>
             <p>
-              If you have inquiries, audit requests, or wish to exercise your legal data rights, contact our Data Governance Officer directly:
+              For questions regarding our Privacy Policy, Paid Applications data handling, or to exercise your statutory privacy rights, contact our Data Governance Officer:
             </p>
             <div class="mt-4 p-6 rounded-2xl bg-brand-navy text-white flex flex-col sm:flex-row sm:items-center justify-between gap-6">
               <div>
-                <h4 class="font-heading font-bold text-base text-white">Bright Forge Data Protection Office</h4>
+                <h4 class="font-heading font-bold text-base text-white">Bright Forge Data Protection & App Support</h4>
                 <p class="text-xs text-slate-300 mt-1">Operating as a 100% Remote-First & Cloud-Native Digital Foundry</p>
-                <p class="text-xs text-brand-gold mt-1">Attn: Data Privacy & Security Inquiries</p>
+                <p class="text-xs text-brand-gold mt-1">Attn: Privacy, Paid App Compliance & Licensing Support</p>
               </div>
-              <a href="mailto:forgesbright@gmail.com" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-brand-orange hover:bg-brand-orange-hover text-white text-xs sm:text-sm font-heading font-bold transition-all shadow-lg flex-shrink-0">
+              <a href="mailto:support@brightforges.in" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-brand-orange hover:bg-brand-orange-hover text-white text-xs sm:text-sm font-heading font-bold transition-all shadow-lg flex-shrink-0">
                 <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
-                <span>forgesbright@gmail.com</span>
+                <span>support@brightforges.in</span>
               </a>
             </div>
           </div>
@@ -347,7 +483,7 @@
           <ul class="space-y-2 text-sm">
             <li><a href="index.html#home" class="hover:text-brand-orange transition-colors">Home</a></li>
             <li><a href="index.html#services" class="hover:text-brand-orange transition-colors">Services</a></li>
-            <li><a href="index.html#portfolio" class="hover:text-brand-orange transition-colors">Portfolio</a></li>
+            <!-- <li><a href="index.html#portfolio" class="hover:text-brand-orange transition-colors">Portfolio</a></li> -->
             <li><a href="index.html#contact" class="hover:text-brand-orange transition-colors">Contact</a></li>
           </ul>
         </div>
@@ -356,6 +492,7 @@
           <h4 class="font-heading font-bold text-white text-sm uppercase tracking-wider mb-4">Legal Governance</h4>
           <ul class="space-y-2 text-sm">
             <li><a href="privacy.html" class="text-brand-orange font-semibold">Privacy Policy</a></li>
+            <li><a href="privacy.html#paid-apps" class="hover:text-brand-orange transition-colors text-xs text-slate-400">Paid Apps & No-Refund Policy</a></li>
             <li><a href="terms.html" class="hover:text-brand-orange transition-colors">Terms of Use</a></li>
             <li><span class="text-slate-400 text-xs">Remote-First Global Operations</span></li>
           </ul>
